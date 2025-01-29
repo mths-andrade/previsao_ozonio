@@ -1,1 +1,7 @@
 # previsao_ozonio
+
+Esse é um projeto para uma empresa de consultoria ambiental fictícia que deseja ter um modelo capaz de prever os valores de um poluente atmosférico nos próximos meses. Além da criação e validação do modelo, criei uma **aplicação web** que permite à pessoa usuária fazer uma previsão com esse modelo. A aplicação servirá para prever os níveis de ozônio utilizando a biblioteca `Prophet`. Na página inicial, temos uma descrição do projeto, de como ele foi feito e qual é o erro do modelo, além de um campo para inserir o número de dias para fazer a previsão.
+
+Para adicionar um período de previsão de 60 dias, coloco esse número no campo e pressiono um botão abaixo dele para realizar a previsão. Após clicar nesse botão, o modelo vai trabalhar internamente e criar a previsão. O resultado será um gráfico interativo que contém a série temporal e os novos valores previstos pelo modelo. Além desse gráfico interativo, também consigo acessar uma tabela que contém os valores de previsão - neste caso, para 60 dias.
+
+A tabela contém a data, o dia, o mês, o ano e a concentração do ozônio em microgramas por metros cúbicos. Inclusive, é possível baixá-la no formato CSV, clicando em um botão abaixo dela. Ao clicar no botão, o download será feito automaticamente no computador. Com essa tabela, é possível fazer análises futuras, tomar decisões, construir relatórios, entre outras coisas.
